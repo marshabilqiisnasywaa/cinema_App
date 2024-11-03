@@ -1,0 +1,32 @@
+<!-- res/drawable/rounded_background.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Lapisan Glow -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#80C8C8C8" /> <!-- Warna glow, sesuaikan dengan kebutuhan -->
+            <corners android:radius="28dp" />
+        </shape>
+    </item>
+
+    <!-- Efek Shadow Glow -->
+    <item
+        android:bottom="6dp"
+        android:left="6dp"
+        android:right="6dp"
+        android:top="6dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#80EFEFEF" /> <!-- Warna bayangan transparan -->
+            <corners android:radius="28dp" />
+        </shape>
+    </item>
+
+    <!-- Latar Belakang Bulat -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#EFEFEF" /> <!-- Warna background bulat -->
+            <corners android:radius="28dp" />
+        </shape>
+    </item>
+
+</layer-list>
